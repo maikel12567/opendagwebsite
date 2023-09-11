@@ -171,14 +171,14 @@ body {
     }
 
     .header-nav li {
-        margin-right: 0; /* Verwijder de rechtermarge van de lijstitems */
-        margin-bottom: 10px; /* Voeg onderruimte tussen lijstitems toe */
+        margin-right: 0; 
+        margin-bottom: 10px; 
     }
 
     .item {
-        margin-left: 0; /* Verwijder linkermarge voor items */
-        margin-right: 0; /* Verwijder rechtermarge voor items */
-        padding: 10px; /* Verminder de padding van de items voor mobiel */
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
     }
 
     .item h2 {
@@ -191,19 +191,19 @@ body {
     }
 
     .right {
-        padding-left: 10px; /* Verminder de linkermarge voor de rechterinhoud */
-        padding-right: 10px; /* Verminder de rechtermarge voor de rechterinhoud */
-        text-align: center; /* Centreer de tekst voor mobiel */
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
     }
 
     .teacher {
-        margin: 10px; /* Verminder de ruimte tussen docenten */
-        flex: 0 0 calc(50% - 20px); /* 50% breedte per docent met ruimte tussen hen */
+        margin: 10px;
+        flex: 0 0 calc(50% - 20px); 
         text-align: center;
     }
 
     .teacher img {
-        width: 80px; /* Verminder de grootte van de docentfoto's */
+        width: 80px;
         height: 80px;
     }
 
