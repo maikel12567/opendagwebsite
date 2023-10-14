@@ -1,10 +1,12 @@
-name: PHP Code Check
-on: [push]
+name: Code Checks
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   check-php-code:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -15,3 +17,15 @@ jobs:
             echo "ERROR: PHP tags or TODO comments found in the code."
             exit 1
           fi
+
+  check-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check for PHP, JavaScript, and single letters
+        run: |
+          if (git grep -l -e "<?php" -- "*.php" | xargs grep -l -E "TODO|\/\/|#|/\*|\*/|[A-Za-z]"); then
+            echo "ERROR: PHP tags, JavaScript comments, or single letters found in the code."
+            exit 1
