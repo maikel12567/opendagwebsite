@@ -1,69 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>software devalopment</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Software Development</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <div class="header-content">
-            <h1 class="header-title"><img draggable="false" src="img/c1/curio-11-donker-paars-logo-rgb.png" alt="">Software developer</h1>
+            <h1 class="header-title"><img draggable="false" src="img/c1/curio-11-donker-paars-logo-rgb.png" alt="">Software Developer</h1>
         </div>
     </header>
     
     <main>
         <div class="item" id="opleiding">
-            <h2>Over de opleiding</h2>
+            <h2>About the Program</h2>
             <div class="item-content">
-                <p class="text">Softwareontwikkeling is als het maken van digitale spellen en apps op een computer. Mensen die dit doen, zijn als computerwizards die de computer vertellen wat hij moet doen om coole dingen te laten gebeuren, zoals het maken van games of tekenprogramma's. Het is als magie voor computers, en je kunt er geweldige dingen mee maken!</p>
+                <p class="text">Software development is like creating digital games and apps on a computer. Those who do this are like computer wizards who instruct the computer on what to do to make cool things happen, such as creating games or drawing programs. It's like magic for computers, and you can create amazing things with it!</p>
             </div>
         </div>
         <div class="item" id="vakken">
-            <h2>Vakken/Rooster</h2>
+            <h2>Subjects/Schedule</h2>
             <div class="item-content">
                 <div class="left">
-                    <img draggable="false" src="img/Rooster.png" alt="Vakken afbeelding">
+                    <?php include 'rooster.php'; ?>
+                    <img draggable="false" src="img/Rooster.png" alt="Subjects Image">
                 </div>
                 <div class="right">
-                    <p>Tijdens de opleiding krijg je de vakken:
-                        Nederlands, Engels, Rekenen en Burgerschap.
-                        Daarnaast krijg je ook nog de vakken:
-                        Webdevelopment, Native, Praktijk/of Delta en Praktijkondersteuning.
+                    <p>During the program, you will study the following subjects:
+                        Dutch, English, Mathematics, and Citizenship.
+                        Additionally, you will also have the following subjects:
+                        Web Development, Native, Practice/Delta, and Practical Support.
                     </p>
                     <div class="lesson">
-                        <h3>Webdevelopment</h3>
-                        <p>Je leert hier de basis van het programmeren en hoe je een website maakt.</p>
-                        <p>Je past bij dit vak de talen html, css, javascript, php en sql toe</p>
+                        <h3>Web Development</h3>
+                        <p>Here, you will learn the fundamentals of programming and how to create a website.</p>
+                        <p>You will use languages such as HTML, CSS, JavaScript, PHP, and SQL in this subject.</p>
                     </div>
                     <div class="lesson">
                         <h3>Native</h3>
-                        <p>Je leert hier hoe je een app maakt voor android en ios.</p>
-                        <p>je past bij dit vak de talen c# en python toe</p>
+                        <p>Here, you will learn how to create apps for Android and iOS.</p>
+                        <p>You will use languages like C# and Python in this subject.</p>
                     </div>
                     <div class="lesson">
-                        <h3>Praktijk/Delta</h3>
-                        <p>Je leert hier hoe je een project aanpakt en hoe je het beste kan samenwerken.</p>
+                        <h3>Practice/Delta</h3>
+                        <p>Here, you will learn how to approach a project and how to collaborate effectively.</p>
                     </div>
                     <div class="lesson">
-                        <h3>Praktijkondersteuning</h3>
-                        <p>alles wat niet programmeren is maar wel bij het vakgebied hoord komt hier aan bod</p>
-                        <p>Je leert hier hoe je een project aanpakt en hoe je het beste kan samenwerken.</p>
+                        <h3>Practical Support</h3>
+                        <p>Anything that is not programming but is related to the field will be covered in this subject.</p>
+                        <p>You will also learn how to approach a project and collaborate effectively here.</p>
                     </div>
                     <div class="lesson">
-                        <h3>Generiek vakken</h3>
-                        <p>nederlands, Engels en rekenen je leert taal en in verhalen te rekenen</p>
+                        <h3>Generic Subjects</h3>
+                        <p>Dutch, English, and Mathematics. You will learn language and story-based mathematics.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="item" id="locaties">
-            <h2>Locaties</h2>
+            <h2>Locations</h2>
             <div class="item-content">
                 <div class="location">
                     <div class="left">
-                        <img draggable="false" src="img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg" alt="Locatie 1 afbeelding">
+                        <img draggable="false" src="img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg" alt="Location 1 Image">
                     </div>
                     <div class="right">
                         <h3>Breda</h3>
@@ -72,7 +73,7 @@
                 </div>
                 <div class="location">
                     <div class="left">
-                        <img draggable="false" src="img/Sanne Bas - Curio - Knipplein 11-1.jpg" alt="Locatie 2 afbeelding">
+                        <img draggable="false" src="img/Sanne Bas - Curio - Knipplein 11-1.jpg" alt="Location 2 Image">
                     </div>
                     <div class="right">
                         <h3>Roosendaal</h3>
@@ -83,58 +84,57 @@
         </div>
         
         <div class="item" id="traject">
-            <h2>Traject/Blokken</h2>
+            <h2>Program Structure/Blocks</h2>
             <div class="item-content">
                 <div class="left">
-                    <img draggable="false" src="img/Opleidingsoverzicht.png" alt="Traject afbeelding">
+                    <img draggable="false" src="img/Opleidingsoverzicht.png" alt="Program Structure Image">
                 </div>
                 <div class="right">
-                    <p>Blokken: er zijn elk jaar 2 blokken deze blokken hebben allemaal een eigen thema in een blok leer je elke keer een beetje over een onderwep als je een blok goed hebt afgerond ga je naar het volgende blok als het niet lukt doe je het blok opnieuw niet een heel jaar.</p>
-                    <p><br>Traject: Er zijn 2 verschillende trajecten. het normale 4 jarige traject is standaard voor iedereen. <br>
-                    je kan ook in 3 jaar je opleiding afronden als je in het eerste half jaar bewijst dat je genoeg kennis hebt en het snel oppakt is het mogelijk om het in 3 jaar te doen</p>
+                    <p>Blocks: There are 2 blocks each year, and each block has its own theme. In each block, you will learn a bit about a topic. If you successfully complete a block, you move on to the next one; otherwise, you can retake the block, not the whole year.</p>
+                    <p><br>Program Structure: There are 2 different program structures. The standard 4-year program is for everyone. You can also complete your program in 3 years if you demonstrate enough knowledge and pick it up quickly in the first half year.</p>
                 </div>
             </div>
         </div>
 
         <div class="item">
-            <h2>Docenten Team</h2>
+            <h2>Teacher Team</h2>
             <div class="teacher-list">
                 <div class="teacher">
                     <img draggable="false" src="img/docent/br10.png" alt="Bart">
                     <p>Bart</p>
-                    <p class="teacher-info">Webdevelopment/Slb/Delta</p>
+                    <p class="teacher-info">Web Development/Student Guidance/Delta</p>
                 </div>
                 <div class="teacher">
                     <img draggable="false" src="img/docent/eb89.png" alt="Elton">
                     <p>Elton</p>
-                    <p class="teacher-info">Webdevelopment</p>
+                    <p class="teacher-info">Web Development</p>
                 </div>
                 <div class="teacher">
                     <img draggable="false" src="img/docent/michel.jpeg" alt="Michel">
                     <p>Michel</p>
-                    <p class="teacher-info">Rekenen/pro</p>
+                    <p class="teacher-info">Mathematics/Programming</p>
                 </div>
                 <div class="teacher">
-                    <img draggable="false" src="img/docent/wicher.png" alt="wicher">
+                    <img draggable="false" src="img/docent/wicher.png" alt="Wicher">
                     <p>Wicher</p>
-                    <p class="teacher-info">Native</p>
+                    <p class="teacher-info">App Development</p>
                 </div>
                 <div class="teacher">
-                    <img draggable="false" src="img/docent/wiro.jpeg" alt="wiro">
+                    <img draggable="false" src="img/docent/wiro.jpeg" alt="Wiro">
                     <p>Wiro</p>
-                    <p class="teacher-info">Rekenen</p>
+                    <p class="teacher-info">Mathematics</p>
                 </div>
                 <div class="teacher">
-                    <img draggable="false" src="img/docent/corne.png" alt="corne">
-                    <p>corne</p>
-                    <p class="teacher-info">Native</p>
+                    <img draggable="false" src="img/docent/corne.png" alt="Corne">
+                    <p>Corne</p>
+                    <p class="teacher-info">App Development</p>
                 </div>
             </div>
         </div>
 
         <div class="item">
-            <h2>meld je nu aan door hier te <a href="https://www.curio.nl/mbo/aanmelden/">klikken</a>!!</h2>
-            <h2>of ga naar de website van <a href="https://www.curio.nl/">curio</a></h2>
+            <h2>Apply now by <a href="https://www.curio.nl/mbo/aanmelden/">clicking here</a>!!</h2>
+            <h2>or visit the <a href="https://www.curio.nl/">Curio website</a></h2>
         </div>
     
     </main>

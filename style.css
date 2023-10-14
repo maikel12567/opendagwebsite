@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,7 +13,7 @@ body{
     top: 0;
     background-color: #56ddef;
     padding: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -31,7 +31,7 @@ body{
     font-weight: bold;
 }
 
-.header-title img{
+.header-title img {
     margin-right: 10px;
 }
 
@@ -56,7 +56,7 @@ body{
 
 .header-title img {
     width: 100px;
-    height: auto; 
+    height: auto;
 }
 
 /* Main styles */
@@ -71,8 +71,8 @@ main {
     margin-bottom: 20px;
     border-bottom: 4px solid #56ddef;
     padding: 20px;
-    margin-left: 10px; 
-    margin-right: 10px; 
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .item h2 {
@@ -89,9 +89,10 @@ main {
     align-items: center;
 }
 
-.left, .right {
+.left,
+.right {
     flex: 1;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .left img {
@@ -104,11 +105,11 @@ main {
     text-align: left;
 }
 
-.lesson{
+.lesson {
     margin-top: 20px;
 }
 
-.text{
+.text {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -125,12 +126,12 @@ footer {
 .teacher-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .teacher {
     margin: 20px;
-    flex: 0 0 calc(33.33% - 40px); 
+    flex: 0 0 calc(33.33% - 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,8 +172,8 @@ body {
     }
 
     .header-nav li {
-        margin-right: 0; 
-        margin-bottom: 10px; 
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .item {
@@ -198,7 +199,7 @@ body {
 
     .teacher {
         margin: 10px;
-        flex: 0 0 calc(50% - 20px); 
+        flex: 0 0 calc(50% - 20px);
         text-align: center;
     }
 
